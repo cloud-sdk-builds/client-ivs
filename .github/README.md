@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-ivs`](https://www.npmjs.com/package/@aws-sdk/client-ivs/v/3.1163.0).
+[`@aws-sdk/client-ivs`](https://www.npmjs.com/package/@aws-sdk/client-ivs/v/3.1164.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-ivs - [https://cloud-sdk-builds.github.io/?sdk=client-ivs](https://cloud-sdk-builds.github.io/?sdk=client-ivs)
-- @aws-sdk/client-ivs v3.1163.0 - [https://cloud-sdk-builds.github.io/?sdk=client-ivs&version=3.1163.0](https://cloud-sdk-builds.github.io/?sdk=client-ivs&version=3.1163.0)
+- @aws-sdk/client-ivs v3.1164.0 - [https://cloud-sdk-builds.github.io/?sdk=client-ivs&version=3.1164.0](https://cloud-sdk-builds.github.io/?sdk=client-ivs&version=3.1164.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs@3.1163.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs@3.1164.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ugJs55tNW1x/RFjcrFy49jplrXObwq5PCeRJISBJOt66YkdXw11p2v7hTM8q75Yh
+sha384-pW9zsEyrLjAH3AT1HEULeftZTkFjqFMYRTES1qlGuNvBzuPGa2qhsgzZ/Fzadiz5
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-ivs": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs@3.1163.0/index.min.mjs"
+            "@aws-sdk/client-ivs": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs@3.1164.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs@3.1163.0/index.min.mjs": "sha384-ugJs55tNW1x/RFjcrFy49jplrXObwq5PCeRJISBJOt66YkdXw11p2v7hTM8q75Yh"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs@3.1164.0/index.min.mjs": "sha384-pW9zsEyrLjAH3AT1HEULeftZTkFjqFMYRTES1qlGuNvBzuPGa2qhsgzZ/Fzadiz5"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-ivs": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs@3.1163.0/index.min.mjs"
+                        "@aws-sdk/client-ivs": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs@3.1164.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs@3.1163.0/index.min.mjs": "sha384-ugJs55tNW1x/RFjcrFy49jplrXObwq5PCeRJISBJOt66YkdXw11p2v7hTM8q75Yh"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ivs@3.1164.0/index.min.mjs": "sha384-pW9zsEyrLjAH3AT1HEULeftZTkFjqFMYRTES1qlGuNvBzuPGa2qhsgzZ/Fzadiz5"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1163.0`)
+* Always pin to a specific version (`@3.1164.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-ivs/blob/refs/tags/3.1163.0/LICENSE
+https://github.com/cloud-sdk-builds/client-ivs/blob/refs/tags/3.1164.0/LICENSE
 ```
 
 ---
